@@ -9,6 +9,7 @@
         <script><![CDATA[var ZundokoGenerator = Class.create();
 ZundokoGenerator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
+	//zundoko
     generate: function() {
         var random = GlideSecureRandomUtil.getSecureRandomIntBound(100);
         return random >= 50 ? 'ズン' : 'ドコ';
@@ -20,13 +21,13 @@ ZundokoGenerator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-26 03:15:32</sys_created_on>
         <sys_id>62dd3095db702300870a5901cf961993</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>ZundokoGenerator</sys_name>
         <sys_package display_value="Zundoko Kiyoshi" source="x_276087_zundoko_k">1c7df455db702300870a5901cf961938</sys_package>
         <sys_policy/>
         <sys_scope display_value="Zundoko Kiyoshi">1c7df455db702300870a5901cf961938</sys_scope>
         <sys_update_name>sys_script_include_62dd3095db702300870a5901cf961993</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-26 03:41:39</sys_updated_on>
+        <sys_updated_on>2018-09-26 09:15:07</sys_updated_on>
     </sys_script_include>
 </record_update>
